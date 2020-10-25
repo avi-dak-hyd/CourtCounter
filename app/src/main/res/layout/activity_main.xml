@@ -17,10 +17,10 @@
         android:layout_weight="1"
         android:orientation="vertical" >
 
-        <TextView
+        <EditText
             android:id="@+id/team_a_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="75dp"
             android:layout_centerHorizontal="true"
             android:text="Team A"
             android:textSize="40sp" />
@@ -69,10 +69,10 @@
         android:layout_weight="1"
         android:orientation="vertical" >
 
-        <TextView
+        <EditText
             android:id="@+id/team_b_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="75dp"
             android:layout_centerHorizontal="true"
             android:text="Team B"
             android:textSize="40sp" />
